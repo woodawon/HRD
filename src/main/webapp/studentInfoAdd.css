@@ -1,0 +1,18 @@
+section > form> div > p {
+	margin-right: 80px;
+}
+
+#tableTitle {
+	color: black;
+	margin: 30px 0;
+}
+
+div {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+input {
+	margin-left: 80px;
+}
