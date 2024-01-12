@@ -15,6 +15,10 @@
 	}%>
 <%
 int count = 1;
+int koreanSum = 0;
+int mathSum = 0;
+int englishSum = 0;
+int historySum = 0;
 BoardDAO dao = new BoardDAO(application);
 ArrayList<BoardDTO> list1 = dao.selectStudent();
 ArrayList<BoardDTO> list2 = dao.selectScore();
@@ -22,6 +26,10 @@ Integer[] ave = new Integer[10];
 
 for (int i = 0; i < list1.size(); i++) {
 	ave[i] = sum(list2, i) / 4;
+	koreanSum += list2.get(i).getKorean();
+	englishSum += list2.get(i).getEnglish();
+	mathSum += list2.get(i).getMath();
+	historySum += list2.get(i).getHistory();
 }
 Arrays.sort(ave, Collections.reverseOrder());
 ArrayList<Integer> aves = new ArrayList<>();
@@ -107,12 +115,12 @@ for (int i = 0; i < ave.length; i++) {
 			</tr>
 			<tr>
 				<td colspan="6" />
-				<td>709</td>
-				<td>687</td>
-				<td>726</td>
-				<td>789</td>
-				<td>2911.0</td>
-				<td>291.1</td>
+				<td><%=koreanSum%></td>
+				<td><%=mathSum %></td>
+				<td><%=englishSum %></td>
+				<td><%=historySum %></td>
+				<td><%=koreanSum + mathSum + englishSum + historySum %></td>
+				<td><%=(koreanSum + mathSum + englishSum + historySum) / 10 %></td>
 				<td>●●●●●●</td>
 			</tr>
 		</table>
