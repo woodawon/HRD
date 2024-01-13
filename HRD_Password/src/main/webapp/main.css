@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: gray;
+	text-align: center;
+}
+
+section {
+	position: relative;
+    min-height: 580px;
+}
+
+h1, #menu, footer > p {
+	color: white;
+}
+
+nav {
+	background-color: silver;
+}
+
+a {
+	margin-inline: 20px;
+}
+
+h3 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+#texts {
+	margin-left: 15px;
+}
+
+footer {
+	background-color: gray;
+	text-align: center;
+	padding: 15px 0;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}

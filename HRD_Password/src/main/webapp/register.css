@@ -1,0 +1,19 @@
+table {
+	width: 1000px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#left {
+	text-align: center;
+	color: black;
+}
+
+#title {
+	color: black;
+	margin-top: 20px;
+}
+
+section {
+	text-align: center;
+}
