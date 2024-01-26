@@ -1,0 +1,16 @@
+table {
+	text-align: left;
+}
+
+input {
+	padding-top: 6px;
+}
+
+select {
+	padding-top: 4px;
+    margin-bottom: 2px;
+}
+
+#buttons {
+	text-align: center;
+}
