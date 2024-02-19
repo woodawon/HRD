@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header, h3, footer {
+	text-align: center;
+}
+
+header, footer {
+	background-color: gray;
+}
+
+nav {
+	background-color: silver;
+	display: flex;
+	margin-top: 15px;
+}
+
+nav > a {
+	margin: 0 15px;
+	color: black;
+}
+
+section {
+	position: relative;
+	min-height: 594px;
+}
+
+div {
+	margin-top: 20px;
+}
+
+h4 {
+	margin: 20px 0;
+}
