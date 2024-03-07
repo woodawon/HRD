@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1, h3, footer > p {
+	text-align: center;
+}
+
+h1, nav > a, footer > p {
+	color: white;
+}
+
+nav {
+	display: flex;
+	background-color: gray;
+	padding: 10px 0;
+}
+
+h1, footer {
+	background-color: black;
+}
+
+section {
+	background-color: silver;
+	position: relative;
+	min-height: 539px;
+}
+
+h1 {
+	padding: 20px 0;
+}
+
+footer > p {
+	padding: 5px 0;
+}
+
+nav > a {
+	margin: 0 15px;
+}
