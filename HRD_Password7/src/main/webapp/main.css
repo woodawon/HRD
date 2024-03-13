@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	background-color: black;
+	padding: 15px 0;
+}
+
+h1, nav > a, footer > p {
+	color: white;
+}
+
+nav {
+	display: flex;
+}
+
+nav, footer {
+	background-color: gray;
+}
+
+section > h3 {
+	margin: 15px 0;
+}
+
+section {
+	position: relative;
+	min-height: 534px;
+}
+
+nav > a {
+	margin: 0 40px;
+}
+
+h1, footer > p, section > h3 {
+	text-align: center;
+}
+footer > p {
+	padding: 5px 0;
+}
