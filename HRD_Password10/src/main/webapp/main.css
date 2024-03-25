@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	padding: 20px 0;
+	background-color: silver;
+}
+
+nav {
+	display: flex;
+	background-color: gray;
+}
+
+footer {
+	background-color: black;
+	padding: 15px 0;
+}
+
+header, footer {
+	text-align: center;
+}
+
+nav > a {
+	margin: 0 10px;
+}
+
+section {
+	position: relative;
+	min-height: 389px;
+}
+
+footer > p {
+	color: white;
+}
+
+#mainpage {
+	margin-top: 150px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}

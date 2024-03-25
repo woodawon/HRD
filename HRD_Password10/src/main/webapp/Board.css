@@ -1,0 +1,41 @@
+table {
+	margin: auto;
+}
+
+section {
+	text-align: center;
+	min-height: 519px;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+#btn {
+	margin-left: 30%;
+}
+
+input {
+	padding-inline: 300px;
+}
+
+#content {
+	padding-block: 150px;
+}
+
+#boardwrite {
+	margin-left: 500px;
+}
+
+#commentpage {
+	display: flex;
+}
+
+#left {
+	text-align: left;
+	padding: 15px 0;
+}
+
+#writerInput {
+	margin: 5px 0;
+}
